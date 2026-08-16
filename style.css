@@ -1,0 +1,12 @@
+/* style.css - simple responsive styles for the Fly Swat game */
+html,body{height:100%;margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial}
+body{background:linear-gradient(#87CEEB,#fefefe);display:flex;align-items:center;justify-content:center;overflow:hidden}
+#game{background:transparent;display:block;touch-action:none}
+.ui{position:fixed;left:12px;top:12px;z-index:20;background:rgba(255,255,255,0.85);backdrop-filter:blur(4px);padding:8px;border-radius:10px;box-shadow:0 4px 14px rgba(0,0,0,0.12)}
+.title{font-weight:700;font-size:18px;margin-bottom:6px}
+.scoreboard{display:flex;gap:12px;font-size:14px}
+.controls{margin-top:8px}
+button{padding:8px 12px;font-size:14px;border-radius:6px;border:1px solid #ddd;background:#fff}
+button:active{transform:translateY(1px)}
+.message{margin-top:8px;color:#b30000;font-weight:700}
+@media (min-width:900px){.ui{left:24px;top:24px}}

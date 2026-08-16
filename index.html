@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>Fly Swat — Panda Run mini-game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ui">
+    <div class="title">Fly Swat</div>
+    <div class="scoreboard">
+      <div>Score: <span id="score">0</span></div>
+      <div>Escaped: <span id="misses">0</span>/5</div>
+    </div>
+    <div class="controls">
+      <button id="startBtn">Start</button>
+      <button id="restartBtn" style="display:none">Restart</button>
+    </div>
+    <div class="message" id="message"></div>
+  </div>
+
+  <canvas id="game"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
